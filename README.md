@@ -1,34 +1,29 @@
-# reA – ANKER · Stabilisierungsachse
+# reB – Borg‑Achse
 
-## 1. Zweck
-Dieses Dokument erklärt die Achsen, die 6‑Werte‑Norm, die Raumlogik und die
-Shogun‑Schach‑Skat‑Klammer, damit jeder Mensch versteht, worum es geht.
+Dieses Repository enthält die Borg‑Station des 12‑Stations‑Systems.
 
-## 2. Die 6‑Werte‑Norm (Mess‑Vektor)
-Der Mess‑Vektor besteht aus sechs Achsen:
+## Dateien
 
-1. Gravitation (G) – Zentrum, Anker
-2. Magnetismus (M) – Richtung, Ordnung
-3. Anziehung (A) – Dynamik, Wertfluss
-4. Raumfluss (R) – Continuum, vertikale 9‑Frequenz
-5. Zustand (Z) – Phase, Form
-6. Quelle (Q) – Ursprung, Ressource
+### Navigation Vector
+- **reB.nav.vector**  
+- **reB.nav.vector.csv**  
+Beide enthalten die NC‑Navigation (W A D S Q E Y C), tmp‑Felder und Farbcodes.
 
-Diese sechs Werte bilden den vektor‑gemäßen Maßstab.
+### Zustand
+- **re-zustand-borg-4.csv**  
+Zustandsmatrix der Borg‑Station.
 
-## 3. Die Klammer für alle Menschen
-- Shogun = Raum
-- Schach = Regel
-- Skat = Mensch
+### Achsen‑Definitionen
+- **achse-bedeutung-8.csv**  
+- **achse-funktion-3.csv**  
+- **achse-modul-12.csv**  
+- **achse-quelle-12.csv**
 
-Damit versteht jeder die Achsen.
+### HTML
+- **index.html** – Anzeige und Vector‑Interpreter  
+- **id.html** – Stationsindex
 
-## 4. Die Unendlichkeits‑Formel
-∞ = (G, M, A, R, Z, Q)
+## Zweck
 
-Sie skaliert rein und raus, hoch und runter, innen und außen.
-
-## 5. Dateien
-- ID.html – Identität der Achse
-- index.html – Übersicht und Navigation
-- CSV‑Dateien – Bedeutung, Funktion, Modul, Quelle, Zustand
+Die Borg‑Achse (reB) ist Teil des 9×9 → 3×3 → 3×1 Systems und dient als
+NC‑fähige Achse mit eigener tmp‑Navigation und Score‑Berechnung.
